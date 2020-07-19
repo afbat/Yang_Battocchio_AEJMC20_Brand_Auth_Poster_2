@@ -1,0 +1,227 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%------RMIT SPACE POSTER------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% a0poster Portrait Poster
+%
+% The a0poster class was created by:
+% Gerlinde Kettl and Matthias Weiser (tex@kettl.de)
+% 
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Author/Designer: Timothy Kodikara
+%
+%% Note: CRC and SERC logos are included in the /figures folder if you might want to use them.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[a0,portrait]{a0poster}
+%%
+\usepackage[top=5cm, bottom=0.3cm, left=5cm, right=3cm]{geometry}
+\usepackage[compact]{titlesec}
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=100pt % This is the amount of white space between the columns in the poster
+\columnseprule=15pt % This is the thickness of the blue line between the columns in the poster
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+%\usepackage{times} % Use the times font
+\usepackage{palatino} % Uncomment to use the Palatino font
+\usepackage{xkeyval}
+\usepackage{graphicx} % Required for including images
+\setlength{\abovecaptionskip}{5pt plus 5pt minus 3pt}
+\graphicspath{{figures/}} % Location of the graphics files
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{csquotes}
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+%\usepackage[pdftex]{color}
+\def\columnseprulecolor{\color{Maroon}}%
+\usepackage{framed}
+\colorlet{frameborder}{Maroon}
+\documentclass{article}
+
+
+\usepackage[style=numeric]{biblatex}
+\bibliography{JPBM-Brand_Auth.bib}
+\usepackage{cite}
+\AtBeginBibliography{\tiny}
+
+%----------------------------------------------------------------------------------------
+%	POSTER HEADER 
+%----------------------------------------------------------------------------------------
+% The header is divided into three boxes:
+% The widths of these boxes can be easily edited to accommodate your content as you see fit
+\begin{document}
+%\hspace*{0.2cm}
+\begin{minipage}[c]{\linewidth}
+\vspace{0.1cm}
+\noindent\makebox[\textwidth][c]{
+\begin{minipage}[c]{0.10\linewidth}
+\vspace{0pt}\raggedright
+\hspace{1cm}
+\includegraphics[scale=4,width=\linewidth]{LUC_stacked.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.70\textwidth}
+\centering
+\Huge \color{Maroon} \textbf{Effects of Transparent Brand Communication on Perceived Brand Authenticity and Consumer Responses}\\[0.5cm]
+\large \color{Black} \textbf{Jing Yang, Ph.D.^{1}$ and Ava Francesca Battocchio, M.S. $^{2} $}\\[0.2cm] % Author(s)
+\small 1. School of Communication, Loyola University Chicago \\[0.1cm] % University
+\small 2. Department of Advertising and Public Relations, Michigan State University\\[0.1cm] % Affiliation 2
+\small \texttt{Correspondence: jyang13@luc.edu}\\
+\end{minipage}
+%\hfill
+\begin{minipage}[c]{0.15\textwidth}
+\vspace{0pt}\raggedleft
+\includegraphics[scale=3,width=\linewidth]{MSU_Wordmark.png}
+\hspace{1cm}
+\end{minipage}}
+\\[0.1cm]%
+% A bit of extra whitespace between the header and poster content
+%----------------------------------------------------------------------------------------
+\color{Maroon}\setlength\FrameRule{25pt}
+\begin{framed}
+\vspace{0.5cm}
+\begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+\color{Maroon}
+\section*{Abstract}
+\color{Black}
+This study explores the influence of transparent brand communication on consumers' perception of brand authenticity, and its further impact on consumers' attitude, trust, and behavioral intention towards the brand. Through a 2x2 online experiment design, this study examined the variation in consumers' perception and responses, while connecting the literature of brand transparency and authenticity. Individuals' difference in moral identity centrality was examined as a moderator in the study\\
+
+\color{Maroon}
+\section*{Literature Review}
+\color{Black}
+
+  \color{Maroon} \textbf{Brand Transparency:} \color{Black}
+Transparency utilizes openness \autocite{parris_exploring_2016}and brand accountability\autocite{yoo_brand_2014} to communicate information gathering,funding, sharing, access,and disclosure \autocite{phillips_online_2009}\autocite{wojdynski_measuring_2018} \autocite{yoo_brand_2014}\autocite{brandao_impact_2018}.Prior studies reveal consumer perceptions of brand transparency results in trust-building, positive attitudes, and behavioral intentions \autocite{reynolds_moral_2008}.\\
+This study measures transparency with a 7-point Likert scale adapted from Kang and Hustvedt (2013)\autocite{kang_building_2013}.
+\\
+
+  \color{Maroon} \textbf{Brand Authenticity:} \color{Black} \\
+  Authenticity contributes principal positive value to a brand's image \autocite{keller_strategic_1998}\autocite{ballantyne_evolution_2006}  and identity \autocite{beverland_crafting_2005}\autocite{kapferer_new_2008}. 
+  This study uses Bruhn et al (2012)'s operationalization of brand authenticity. It consists of four dimensions: continuity, originality, reliability, and naturalness.
+\\ 
+\\
+    \color{Maroon} \textbf{Moral Identity:} \color{Black}Individuals’ moral identity (MI) centrality refers to “the degree to which being moral is a central or defining characteristic of a person’s sense of self” \autocite{blasi_moral_1994}.
+    Aquino and his colleagues \autocite{aquino_self-importance_2002}\autocite{aquino_testing_2009}, operationalized MI centrality as a set of moral traits that are stable to one’s self-conception and guides behavior. 
+    \\
+   \begin{center}
+  \color{Maroon} \textbf{RQ:} \color{Black}  Which kind of transparent brand communication (production transparency vs. cost transparency vs. both) will be perceived with higher brand transparency? \\
+  \end{center}
+%\begin{wrapfigure}{R}{0.25\textwidth}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{figures/Figure1}
+\captionof{figure}{\color{DarkSlateGrey} Hypothesis Model}
+\label{ALICerros}
+\end{center}
+\color{Maroon}
+\textbf{H1:} \color{Black}Brand transparency will positively contribute to consumers' perception of the brand's authenticity. \\
+\\
+\color{Maroon}
+\textbf{H2:} \color{Black} Brand transparency will positively relate to consumers’ a) trust, b) attitude and c) behavioral intentions towards the brand.\\
+\\
+\color{Maroon}
+\textbf{H3:} \color{Black} Brand authenticity will positively relate to consumers’ a) trust, b) attitude and c) behavioral intentions towards the brand.\\
+\\
+\color{Maroon}
+\textbf{H4:} \color{Black} Brand authenticity will mediate the positive relationship between brand transparency and consumers’ a) trust, b) attitude, and c) behavioral intentions towards the brand.\\
+\\
+\color{Maroon}
+\textbf{H5:} \color{Black}  Individuals’ MI centrality would moderate the impact of brand transparency on consumers’ a) trust, b) attitude, and c) behavioral intentions towards the brand, such that people with higher moral identity centrality are more likely to respond positively towards brand with higher brand transparency.\\
+\\
+\color{Maroon}
+\textbf{H6:} \color{Black} Individuals’ MI centrality would moderate the impact of brand authenticity on consumers’ a) trust, b) attitude, and c) behavioral intentions towards the brand,
+such that people with higher moral identity centrality are more likely to respond positively towards brands with higher brand authenticity.
+}
+
+%----------------------------------------------------------------------------------------
+%	METHODS
+%---------------------------------------------------------------------------------------- 
+\color{Maroon}
+\section*{Methods}
+\color{Black}
+\textbf{Study Design}
+\begin{itemize}
+\item Conducted online between-subject, 2x2 experiment design	
+\begin{itemize}
+    \item Cost Transparency (Present or not) x Production Transparency(Present or not) 
+\end{itemize}
+\end{itemize}
+\\
+\textbf{Stimuli Development}
+\begin{itemize}
+    \item Created fictitious apparel brand called \textit{A\text{\_} Tee} with mock-up of e-commerce website
+    \item After answering questions about their moral identity centrality, participants were assigned to review one of four conditions with different mock-up page elements:
+    \begin{itemize}
+        \item \textbf{Control:} unisex tee photo plus price, material and size options
+        \item \textbf{Transparent Production:} Control descriptors plus partnered factories and material sourcing
+         \item \textbf{Transparent Price:} Control descriptors plus costs of material, hardware, labor, duties, and transportation fees
+         \item \textbf{Transparent Price and Production:} Control descriptors plus both price and production descriptors
+    \end{itemize}
+\end{itemize}
+\textbf{Participants}
+\begin{itemize}
+\item \textit{n=172}
+\item Recruited on Amazon Mturk
+\begin{itemize}
+    \item US participants 
+    \item 61.5\text{\%} Male
+    \item 79.3\text{\%} White
+    \item 51.7\text{\%} Bachelor's Degree
+    \item Ages ranged from 21 to 75 (M=39.5, SD=12.235)
+    \begin{itemize}
+        \item 43.7\text{\%} Millennials (Between 13 to 34)
+    \end{itemize}
+    \item 71.3\text{\%} Employed full-time
+    \item 58.6\text{\%} Annual household income under \text{\$}50,000
+\end{itemize}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	RESULTS
+%---------------------------------------------------------------------------------------- 
+\color{Maroon}
+\section*{Results}
+\color{Black}
+Fig.-\ref{BIvar} compares tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 705 valid (CT$\neq$0) improvements in CT.
+\begin{center}
+\includegraphics[width=0.9\linewidth]{figures/placeholder}
+\captionof{figure}{\color{DarkSlateGrey} Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+\label{ALICerros}
+\end{center}
+Fig.-\ref{ALICerros} illustrates Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSIONS
+%----------------------------------------------------------------------------------------
+\color{Maroon}
+\section*{Summary}
+\color{Black}
+Two typesLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Uore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. In summary, we wish to highlight the following:\\ 
+\hspace{0.1cm}$\circ$ text is derived from sections 1.10.33 of Cicero's De finibus bonorum et malorum;\\
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+\color{Maroon} \\
+
+\color{Black}
+
+\printbibliography
+
+\end{multicols}
+%\textcolor{NavyBlue}{\rule{\linewidth}{15pt}}
+\vspace{0.5cm}
+\end{framed}
+\end{minipage}
+%\hspace*{0.1cm}
+\end{document}
+%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
