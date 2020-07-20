@@ -7,3 +7,9 @@ This poster was adapted from a previous template made by Gerlinde Kettl and Matt
 Alterations include addition of the following categories: abstract, literature review, discussion and references.
 
 References were included using BibLaTex and a .bib file exported from a Zotero collection
+
+Admittedly, this file likely has a bit of sloppy code, as this was my first project and introduction to LaTex. Because I like to keep things interesting (apparently), I decided that creating a research poster on a very short turnaround timeline while negotiating an out-of-state move during the middle of a Pandemic was the PERFECT time to crash course myself in LaTex. 
+
+Anyway, feel free to throw some feedback my way. This was fun but I'd like to improve on this skill moving forward.
+
+-a f 
