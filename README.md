@@ -2,7 +2,7 @@
 "Effects of Transparent Brand Communication on Perceived Brand Authenticity and Consumer Responses" by Jing Yang, Ph.D. and Ava Francesca Battocchio, M.S. 
 To be presented at AEJMC's Advertising Divisions' Scholar-to-Scholar Refereed Paper Session on August 7th, 2020. 
 
-This poster was adapted from a previous template made by Gerlinde Kettl and Matthias Weiser (tex@kettl.de)
+This poster (https://www.researchgate.net/publication/343084154_Effects_of_Transparent_Brand_Communication_on_Perceived_Brand_Authenticity_and_Consumer_Responses) was adapted from a previous template made by Gerlinde Kettl and Matthias Weiser (tex@kettl.de)
 
 Alterations include addition of the following categories: abstract, literature review, discussion and references.
 
